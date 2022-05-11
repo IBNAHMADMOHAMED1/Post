@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12 mx-auto">
+        <div class="relative">
+            <div
+                class="pointer-events-none absolute -top-4 right-full -mr-14 hidden w-1/2 origin-top-right rotate-12 xl:block">
+                <div class="aspect-w-4 aspect-h-5">
+                    <div>
+                        <div class="absolute top-0 left-[-200%] -right-1/4 h-px opacity-30"
+                            style="background-image:linear-gradient(to right, rgba(148, 163, 184, 0) 33%, rgb(148, 163, 184) 80%, rgba(148, 163, 184, 0) 100%)">
+                        </div>
+                        <div class="absolute top-[-125%] right-0 -bottom-1/3 w-px opacity-30"
+                            style="background-image:radial-gradient(closest-corner at 50% 66%, rgb(148, 163, 184), rgba(148, 163, 184, 0))">
+                        </div>
+                        <div class="absolute bottom-0 left-[-200%] -right-1/2 h-px opacity-30"
+                            style="background-image:linear-gradient(to right, rgba(148, 163, 184, 0) 33%, rgb(148, 163, 184) 80%, rgba(148, 163, 184, 0) 100%)">
+                        </div>
+                        <div class="absolute top-[-100%] left-0 -bottom-1/2 w-px opacity-30"
+                            style="background-image:radial-gradient(closest-corner at 50% 66%, rgb(148, 163, 184), rgba(148, 163, 184, 0))">
+                        </div>
+                        <div
+                            class="absolute top-[-0.5px] left-0 h-[2px] w-28 -translate-x-1/3 rounded-full bg-gradient-to-r from-blue-500">
+                        </div>
+                        <div
+                            class="absolute bottom-[-0.5px] right-0 h-[2px] w-28 translate-x-4 rounded-full bg-gradient-to-l from-violet-400">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2
+                class="text-center text-4xl leading-[1.2] tracking-tighter text-slate-900 sm:text-[3.5rem] sm:leading-[4.5rem]">
+                “I know this looks terrible, but I have no idea why.”</h2>
+            <div class="space-y-8 text-lg leading-8 mt-16">
+                <p class="text-2xl leading-10 tracking-tight text-slate-900">Hi! I'm
+                    <!-- --> <a href="https://twitter.com/adamwathan"
+                        class="font-medium text-sky-500 no-underline hover:text-sky-600">Adam Wathan</a>, a full stack
+                    developer who used to suck at design. I've been friends with
+                    <!-- --> <a href="https://twitter.com/steveschoger"
+                        class="font-medium text-sky-500 no-underline hover:text-sky-600">Steve Schoger</a> <!-- -->for years
+                    and we've worked on a bunch of side projects together — him handling the UI design and me taking care of
+                    development.
+                </p>
+                <p>Like a lot of developers, I always wished I could make my ideas look awesome without relying on a
+                    designer, but any time I tried to design something myself I would always get frustrated and give up.</p>
+                <p>I always chalked it up to a left brain/right brain sort of thing — I'm logical and analytical so I'm good
+                    at programming, people like Steve are intuitive and creative so he's good at design.</p>
+                <p>But after working closely with Steve I started picking up little tricks. Tricks that didn't require any
+                    artistic talent, but made things look better instantly for reasons that made sense to me as a developer.
+                </p>
+            </div>
+            <h3 class="mt-16 text-3xl leading-[1.5] tracking-tighter text-slate-900 sm:text-[2.5rem] sm:leading-[3.5rem]">
+                Design with tactics, not talent.</h3>
+            <div class="space-y-8 text-lg leading-8 mt-6">
+                <p>Here's a concrete design tactic I bet you see applied every day but haven't explicitly noticed.</p>
+                <p><strong class="font-semibold text-slate-900">Use fewer borders.</strong></p>
+                <p>Borders are a great way to distinguish two elements from one another, but using too many of them can make
+                    your design feel busy and cluttered.</p>
+                <p>Instead, try adding a box shadow, using contrasting background colors, or simply adding more space
+                    between elements.</p>
+                <p>It doesn't take any talent to make changes like this — once you know the tactic you just need to notice
+                    the problem and apply the solution.</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative z-10 mt-20 bg-slate-100 py-16 px-4 sm:py-20 xl:bg-transparent xl:py-0">
+        <div class="flex justify-center">
+            <div class="grid grid-cols-1 gap-16 rounded-3xl bg-slate-100 lg:grid-cols-2 xl:gap-x-28 xl:p-20">
+                <div class="relative xl:flex xl:items-start"><svg viewBox="0 0 32 32" fill="currentColor"
+                        class="top-0 right-full h-8 w-8 flex-none overflow-visible text-rose-500 sm:absolute sm:mr-10 lg:static lg:mr-0">
+                        <circle cx="16" cy="16" r="16"></circle>
+                        <circle cx="16" cy="16" r="19" fill="none" stroke="currentColor" opacity="0.5" stroke-width="2">
+                        </circle>
+                        <circle cx="16" cy="16" r="23" fill="none" stroke="currentColor" opacity="0.1" stroke-width="2">
+                        </circle>
+                        <path d="M11 11L21 21M11 21L21 11" stroke-linecap="round" fill="none" stroke="white"
+                            stroke-width="2"></path>
+                    </svg><img src="asset/borders-too-many.png" alt=""
+                        class="mt-6 w-[25rem] min-w-0 flex-none rounded-xl shadow-xl ring-1 ring-slate-900/10 sm:mt-0 lg:mt-10 xl:mt-0 xl:ml-10"
+                        width="800" height="774"></div>
+                <div class="relative xl:flex xl:items-start"><svg viewBox="0 0 32 32" fill="currentColor"
+                        class="top-0 right-full h-8 w-8 overflow-visible text-teal-500 sm:absolute sm:mr-10 lg:static lg:mr-0">
+                        <circle cx="16" cy="16" r="16"></circle>
+                        <circle cx="16" cy="16" r="19" fill="none" stroke="currentColor" opacity="0.5" stroke-width="2">
+                        </circle>
+                        <circle cx="16" cy="16" r="23" fill="none" stroke="currentColor" opacity="0.1" stroke-width="2">
+                        </circle>
+                        <path
+                            d="M10.743 16.331a1 1 0 1 0-1.486 1.338l1.486-1.338Zm11.926-4.587a1 1 0 1 0-1.338-1.488l1.338 1.488ZM14.5 22l-.743.669a1 1 0 0 0 1.692-.352L14.5 22Zm.949.317c1.34-4.018 4.11-7.777 7.22-10.573l-1.338-1.488c-3.306 2.973-6.306 7.012-7.78 11.427l1.898.634Zm-6.192-4.648 4.5 5 1.486-1.338-4.5-5-1.486 1.338Z"
+                            fill="#fff"></path>
+                    </svg><img src="asset/borders-just-right.png" alt=""
+                        class="mt-6 w-[25rem] min-w-0 flex-none rounded-xl shadow-xl sm:mt-0 lg:mt-10 xl:mt-0 xl:ml-10"
+                        width="800" height="852"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
